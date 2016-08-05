@@ -1,5 +1,5 @@
 module.exports = {
-    inventory: [{
+    inventory: [ {
         id: 10,
         name: "Baseball Bat",
         price: 19.99,
@@ -15,7 +15,8 @@ module.exports = {
         price: 79.99,
         quantityAvailable: 7
     }],
-    shoppingCart: [{
+    shoppingCart: [ 
+        {
         itemId: 10,
         quantity: 0
     },{
@@ -24,5 +25,7 @@ module.exports = {
     },{
         itemId: 18,
         quantity: 0
-    }]
+    } 
+    
+    ]
 };
